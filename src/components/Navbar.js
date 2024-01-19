@@ -43,7 +43,7 @@ const Navbar = () => {
             <nav style={navbarStyle} 
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}>
-            <NavLink to="/" className="logo"><img className="logo" src={foodFindersLogo} /></NavLink>
+            <NavLink to="/" className="logo"><img alt="logo image" className="logo" src={foodFindersLogo} /></NavLink>
             
             <div className="nav-menu">
             
