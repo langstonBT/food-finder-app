@@ -16,24 +16,24 @@ const Home = () => {
                     <p>Simply enter you ingredients and choose your filters, to get cooking.</p>
                     <Link class="ingredients-page-link" to="/ingredients">Add ingredients</Link>
                 </div>
-                <img alt="pizza image" src={pizza} />   
+                <img alt="pizza" src={pizza} />   
             </div>
 
 
             <div className="title-page-photo-with-text">
-                <img  alt="table photo" class="table-photo" src={tableMeal}/>
+                <img  alt="table" class="table-photo" src={tableMeal}/>
                   
             </div>
 
             
             <div className="third-page-space">
-                    <img alt="third image" className="third-image-index-page" src={pinkDessert} />
+                    <img alt="third" className="third-image-index-page" src={pinkDessert} />
                     <div><h1 className="third-image-description">We use AI based algorithms to recommend you recpies you will love, to make delicious meals</h1></div>
             </div>
             
             <div className="fourth-page-source">
                 <div className="individual-card"> 
-                    <img alt="fourth section image" className="fourth-section-image" src={cookies} 
+                    <img alt="fourth section" className="fourth-section-image" src={cookies} 
                     id="section1"/>
                     <h1 className= "fourth-section-title"
                     id="section1">Step 1</h1> 
@@ -41,7 +41,7 @@ const Home = () => {
                     id="section1">Add the ingredients in your fridge to the food finders website.</p>
                 </div>
                 <div className="individual-card"> 
-                    <img  alt="fourth section image" className="fourth-section-image" src={salad} 
+                    <img  alt="fourth section" className="fourth-section-image" src={salad} 
                     id="section2"/>
                     <h1 className= "fourth-section-title"
                     id="section2">Step 2</h1> 
@@ -49,7 +49,7 @@ const Home = () => {
                     id="section2">Choose your filters and preferences</p>
                 </div>
                 <div className="individual-card"> 
-                    <img  alt="Fifth section image" className="fourth-section-image" src={cookies} 
+                    <img  alt="Fifth section" className="fourth-section-image" src={cookies} 
                     id="section3"/>
                     <h1 className= "fourth-section-title"
                     id="section3">Step 3</h1> 
