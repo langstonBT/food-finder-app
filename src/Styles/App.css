@@ -125,7 +125,7 @@
   align-content: center;
   display: flex;
   flex-direction:column;
-  justify-content: start;
+  justify-content: flex-start;
   animation: reveals 2s;
 
 }
